@@ -16,6 +16,19 @@ body{
     gap: 2rem;
 }
 
+.NewBookList {
+    width: 90vw;
+    max-width: 1170px;
+    margin: 5rem auto;
+    display: grid;
+    gap: 2rem;
+}
+@media screen and (min-width:768px) {
+
+    .NewBookList{
+        grid-template-columns: repeat(3,1fr);
+    }
+}
 @media screen and (min-width:768px) {
 
     .bookList{
@@ -37,3 +50,30 @@ object-fit: cover;
     margin-top: 1rem;
     font-size: 1rem;
 }
+.MyBook {
+     background: #ffff;
+    border-radius: 1rem;
+    padding: 2rem;
+    height: auto;
+    
+    .h2{
+    margin-top: 1rem;
+    font-size: 1rem;
+}
+}
+.MyBook img{
+      width: 100%;
+object-fit: cover;
+height: 350px;
+    }
+.MyBookList{
+     width: 90vw;
+    max-width: 1170px;
+    max-height: fit-content;
+    margin: 5rem auto;
+    display: grid;
+    gap: 2rem;
+}
+.MyBookList{
+        grid-template-columns: repeat(3,1fr);
+    }
